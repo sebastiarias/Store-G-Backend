@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+ComR6DvxM4J2duoayJJ+gIGYubEDBwcNu0k3kqQRKI=",
+  "Source": "StoregApp.Api",
+  "BasePath": "_content/StoregApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

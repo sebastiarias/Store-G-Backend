@@ -1,0 +1,134 @@
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\appsettings.Development.json
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\appsettings.json
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Api.exe
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Api.deps.json
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Api.runtimeconfig.json
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Api.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Api.pdb
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.csproj.AssemblyReference.cache
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.AssemblyInfoInputs.cache
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.AssemblyInfo.cs
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.csproj.CoreCompileInputs.cache
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\staticwebassets.build.json
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\staticwebassets.development.json
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\scopedcss\bundle\StoregApp.Api.styles.css
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.csproj.CopyComplete
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\refint\StoregApp.Api.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.pdb
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.genruntimeconfig.cache
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\ref\StoregApp.Api.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Humanizer.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Application.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Domain.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Infrastructure.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Application.pdb
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Domain.pdb
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Infrastructure.pdb
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.csproj.AssemblyReference.cache
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.AssemblyInfoInputs.cache
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.AssemblyInfo.cs
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.csproj.CoreCompileInputs.cache
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\refint\StoregApp.Api.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.pdb
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\appsettings.json
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Api.exe
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Api.deps.json
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Api.runtimeconfig.json
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Api.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Api.pdb
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Humanizer.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Application.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Domain.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Infrastructure.dll
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Application.pdb
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Domain.pdb
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\bin\Debug\net6.0\StoregApp.Infrastructure.pdb
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\scopedcss\bundle\StoregApp.Api.styles.css
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.csproj.CopyComplete
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\StoregApp.Api.genruntimeconfig.cache
+C:\Users\401\Desktop\StoregApp\StoregApp\StoregApp.Api\obj\Debug\net6.0\ref\StoregApp.Api.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "StoregApp.Application/1.0.0": {
+        "dependencies": {
+          "StoregApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "StoregApp.Application.dll": {}
+        }
+      },
+      "StoregApp.Domain/1.0.0": {
+        "runtime": {
+          "StoregApp.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StoregApp.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StoregApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
