@@ -11,11 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Presentation", "3. Prese
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoregApp.Api", "StoregApp.Api\StoregApp.Api.csproj", "{80254AA2-6B92-4249-8AC7-E2C8927AFAD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoregApp.Infrastructure", "StoregApp.Infrastructure\StoregApp.Infrastructure.csproj", "{8ED82572-F3A9-4DDB-9BE1-B0E3F99731A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoregApp.Infrastructure", "StoregApp.Infrastructure\StoregApp.Infrastructure.csproj", "{8ED82572-F3A9-4DDB-9BE1-B0E3F99731A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoregApp.Application", "StoregApp.Application\StoregApp.Application.csproj", "{65437176-FB15-4386-9309-5B851E5E6861}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoregApp.Application", "StoregApp.Application\StoregApp.Application.csproj", "{65437176-FB15-4386-9309-5B851E5E6861}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoregApp.Domain", "StoregApp.Domain\StoregApp.Domain.csproj", "{1834E072-6506-4FA9-A351-12DC8A184726}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoregApp.Domain", "StoregApp.Domain\StoregApp.Domain.csproj", "{1834E072-6506-4FA9-A351-12DC8A184726}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

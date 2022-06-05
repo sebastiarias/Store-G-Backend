@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StoregApp.Infrastructure.Persistence;
-using StoregApp.Application.Entities;
+using StoregApp.Domain.Entities;
 
 namespace StoregApp.Api.Controllers
 {

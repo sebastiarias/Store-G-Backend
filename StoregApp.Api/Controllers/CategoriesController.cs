@@ -1,7 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StoregApp.Infrastructure.Persistence;
-using StoregApp.Application.Entities;
+using StoregApp.Domain.Entities;
+using StoregApp.Domain.Interfaces;
+using AutoMapper;
+using StoregApp.Application.Requests;
 
 namespace StoregApp.Api.Controllers
 {
@@ -9,59 +12,37 @@ namespace StoregApp.Api.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        private StoreGContext _context;
+        private readonly ICategoryRepository _repository;
+        private readonly IMapper _mapper;
 
-        public CategoriesController(StoreGContext context)
+        public CategoriesController(ICategoryRepository repository, IMapper mapper)
         {
-            _context = context;
+            _repository = repository;
+            _mapper = mapper;            
         }
 
         [HttpGet]
-        public ActionResult<List<Category>> Get()
+        public IActionResult Get()
         {
-            var list = _context.Categories;
-            return Ok(list);
-        }
-
-        [HttpGet("{id}")]
-
-        public ActionResult<Category> Get(int id)
-        {
-            var categoriaExistente = _context.Categories.FirstOrDefault(x => x.IdCategory == id);
-            if (categoriaExistente is null) return NotFound();
-            return Ok(categoriaExistente);
+            return Ok(_repository.GetCategories());
         }
 
         [HttpPost]
-        public ActionResult Post(Category category)
+
+        public IActionResult Post(CreateCategoryRequest request)
         {
-            _context.Categories.Add(category);
-            _context.SaveChanges();
-            return Ok();
+            var category = _mapper.Map<Category>(request);
+            _repository.AddCategory(category);
+            return Ok(category);
+            
         }
 
-        [HttpPut]
-
-        public ActionResult Put(Category category)
+        public IActionResult Put(UpdateCategoryRequest request)
         {
-            var categoriaExistente = _context.Categories.FirstOrDefault(x => x.IdCategory==category.IdCategory);
-            if (categoriaExistente is null) return NotFound();
-            categoriaExistente.NameCategory = category.NameCategory;
-            _context.SaveChanges();
-            return Ok(categoriaExistente);
+            var category = _mapper.Map<Category>(request);
+            _repository.UpdateCategory(category);
+            return Ok(category);
         }
-
-        [HttpDelete("{id}")]
-
-        public ActionResult Delete(int id)
-        {
-            var categoriaExistente = _context.Categories.FirstOrDefault(x => x.IdCategory == id);
-            if (categoriaExistente is null) return NotFound();
-            _context.Categories.Remove(categoriaExistente);
-            _context.SaveChanges();
-            return Ok();
-        }
-
 
 
 

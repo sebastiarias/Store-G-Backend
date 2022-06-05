@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-using StoregApp.Application.Entities;
+using StoregApp.Domain.Entities;
 
 
 namespace StoregApp.Infrastructure.Persistence
