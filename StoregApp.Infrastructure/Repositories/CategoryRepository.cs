@@ -36,15 +36,15 @@ namespace StoregApp.Infrastructure.Repositories
 
         public void UpdateCategory(Category category)
         {
-            var categoryExistente = _context.Categories.FirstOrDefault(x => x.IdCategory == category.IdCategory);
-            categoryExistente.NameCategory = category.NameCategory;
+            var categoriaExistente = _context.Categories.FirstOrDefault(x => x.IdCategory == category.IdCategory);
+            categoriaExistente.NameCategory = categoriaExistente.NameCategory;
             _context.SaveChanges();
         }
 
         public void DeleteCategory(int idCategory)
         {
-            var categoryExistente = _context.Categories.FirstOrDefault(x => x.IdCategory == idCategory);
-            _context.Categories.Remove(categoryExistente);
+            var categoriaExistente = _context.Categories.FirstOrDefault(x => x.IdCategory == idCategory);          
+            _context.Categories.Remove(categoriaExistente);
             _context.SaveChanges();
         }
 

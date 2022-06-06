@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace StoregApp.Application.Validator
 {
-    public class CreateGategoryValidator : AbstractValidator<CreateCategoryRequest>
+    public class CreateCategoryValidator : AbstractValidator<CreateCategoryRequest>
     {
-        public CreateGategoryValidator()
+        public CreateCategoryValidator()
         {
             RuleFor(X => X.NameCategory)
                 .NotEmpty()

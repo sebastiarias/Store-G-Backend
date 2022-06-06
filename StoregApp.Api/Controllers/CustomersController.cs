@@ -2,6 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using StoregApp.Infrastructure.Persistence;
 using StoregApp.Domain.Entities;
+using StoregApp.Domain.Interfaces;
+using AutoMapper;
+using StoregApp.Application.Requests;
 
 namespace StoregApp.Api.Controllers
 {
@@ -9,59 +12,55 @@ namespace StoregApp.Api.Controllers
     [ApiController]
     public class CustomersController : ControllerBase
     {
-        private StoreGContext _context;
+        private readonly ICustomerRepository _repository;
+        private readonly IMapper _mapper;
 
-        public CustomersController(StoreGContext context)
+        
+        public CustomersController(ICustomerRepository repository, IMapper mapper )
         {
-            _context = context; 
+            _repository = repository;
+            _mapper = mapper;
         }
 
         [HttpGet]
 
-        public ActionResult<List<Customer>> Get()
+        public IActionResult Get()
         {
-            var listCliente = _context.Customers;
-            return Ok(listCliente);
+            return Ok(_repository.GetCustomers());
         }
 
         [HttpGet("{id}") ]
 
-        public ActionResult<Customer> Get(int id)
+        public IActionResult Get([FromRoute] GetCustomerByIdRequest request)
         {
-            var clienteExistente = _context.Customers.FirstOrDefault(x => x.IdCustomer == id);
-            if (clienteExistente is null) return NotFound();
-            return Ok(clienteExistente);
+            return Ok(_repository.GetCustomerById(request.IdCustomer));
         }
 
         [HttpPost] 
         
-        public ActionResult Post(Customer customer)
+        public IActionResult Post(CreateCategoryRequest request)
         {
-            _context.Customers.Add(customer);
-            _context.SaveChanges();
+            var customer = _mapper.Map<Customer>(request);
+            _repository.InsertCustomer(customer);
             return Ok();
         }
 
         [HttpPut]
 
-        public ActionResult Put(Customer customer)
+        public IActionResult Put(UpdateCategoryRequest request)
         {
-            var clienteExistente = _context.Customers.FirstOrDefault(x => x.IdCustomer == customer.IdCustomer);
-            if (clienteExistente is null) return NotFound();
-            clienteExistente.FullNameCustomer = customer.FullNameCustomer;
-            _context.SaveChanges();
-            return Ok(clienteExistente);
+            var customer = _mapper.Map<Customer>(request);
+            _repository.UpdateCustomer(customer);
+            return Ok();
         }
 
         [HttpDelete("{id}")]
 
-        public ActionResult Delete(int id)
+        public IActionResult Delete([FromRoute] GetCustomerByIdRequest request)
         {
-            var clienteExistente = _context.Customers.FirstOrDefault(x => x.IdCustomer == id);
-            if (clienteExistente is null) return NotFound();
-            _context.Customers.Remove(clienteExistente);
-            _context.SaveChanges();
+            _repository.DeleteCustomer(request.IdCustomer);         
             return Ok();
+
         }
     }
 }

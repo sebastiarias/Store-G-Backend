@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace StoregApp.Application.Requests
 {
-    public class GetCategoryRequest
+    public class GetCustomerByIdRequest
     {
-        public int IdCategory { get; set; }
-        public int Id { get; set; }
+        public int IdCustomer { get; set; }
     }
 }

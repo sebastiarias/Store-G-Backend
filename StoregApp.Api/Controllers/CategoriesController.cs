@@ -28,7 +28,7 @@ namespace StoregApp.Api.Controllers
         }
 
         [HttpGet("{id}")]
-        public IActionResult Get([FromRoute] GetCategoryRequest request)
+        public IActionResult Get([FromRoute] GetCategoryByIdRequest request)
         {
             return Ok(_repository.GetCategoryById(idCategory: request.Id));
         }
@@ -52,7 +52,7 @@ namespace StoregApp.Api.Controllers
         }
         public IActionResult Delete([FromRoute] DeleteCategoryRequest request)
         {
-            _repository.DeleteCategory(idCategory: request.Id);
+            _repository.DeleteCategory(request.Id);
             return Ok();
         }
 
