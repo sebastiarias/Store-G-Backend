@@ -27,12 +27,19 @@ namespace StoregApp.Api.Controllers
             return Ok(_repository.GetCategories());
         }
 
+        [HttpGet("{id}")]
+        public IActionResult Get([FromRoute] GetCategoryRequest request)
+        {
+            return Ok(_repository.GetCategoryById(idCategory: request.Id));
+        }
+
+
         [HttpPost]
 
         public IActionResult Post(CreateCategoryRequest request)
         {
             var category = _mapper.Map<Category>(request);
-            _repository.AddCategory(category);
+            _repository.InsertCategory(category);
             return Ok(category);
             
         }
@@ -43,6 +50,13 @@ namespace StoregApp.Api.Controllers
             _repository.UpdateCategory(category);
             return Ok(category);
         }
+        public IActionResult Delete([FromRoute] DeleteCategoryRequest request)
+        {
+            _repository.DeleteCategory(idCategory: request.Id);
+            return Ok();
+        }
+
+
 
 
 
