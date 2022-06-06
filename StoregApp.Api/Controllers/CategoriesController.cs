@@ -44,12 +44,15 @@ namespace StoregApp.Api.Controllers
             
         }
 
+        [HttpPut]
         public IActionResult Put(UpdateCategoryRequest request)
         {
             var category = _mapper.Map<Category>(request);
             _repository.UpdateCategory(category);
             return Ok(category);
         }
+
+        [HttpDelete("{id}")]
         public IActionResult Delete([FromRoute] DeleteCategoryRequest request)
         {
             _repository.DeleteCategory(request.Id);
