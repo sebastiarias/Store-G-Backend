@@ -18,7 +18,7 @@ namespace StoregApp.Infrastructure.Persistence
         {
         }
 
-        public virtual DbSet<Category> Categories { get; set; } = null!;
+        public virtual DbSet<Product> Categories { get; set; } = null!;
         public virtual DbSet<Customer> Customers { get; set; } = null!;
         public virtual DbSet<Order> Orders { get; set; } = null!;
         public virtual DbSet<OrderDetail> OrderDetails { get; set; } = null!;
@@ -26,7 +26,7 @@ namespace StoregApp.Infrastructure.Persistence
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Category>(entity =>
+            modelBuilder.Entity<Product>(entity =>
             {
                 entity.HasKey(e => e.IdCategory);
 

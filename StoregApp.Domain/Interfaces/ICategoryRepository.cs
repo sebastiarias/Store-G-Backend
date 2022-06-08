@@ -10,13 +10,13 @@ namespace StoregApp.Domain.Interfaces
 {
     public interface ICategoryRepository
     {
-        Category GetCategoryById(int idCategory);
+        Product GetCategoryById(int idCategory);
 
-        IEnumerable<Category> GetCategories();
+        IEnumerable<Product> GetCategories();
 
-        void InsertCategory(Category category);
+        void InsertCategory(Product category);
 
-        void UpdateCategory(Category category);
+        void UpdateCategory(Product category);
 
         void DeleteCategory(int idCategory);
 

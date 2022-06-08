@@ -13,11 +13,11 @@ namespace StoregApp.Application.Mappings
     {
         public CategoryMappingProfile()
         {
-            CreateMap<CreateCategoryRequest, Category>();
-            CreateMap<Category, CreateCategoryRequest>();
+            CreateMap<CreateCategoryRequest, Product>();
+            CreateMap<Product, CreateCategoryRequest>();
 
-            CreateMap<UpdateCategoryRequest, Category>();
-            CreateMap<Category, UpdateCategoryRequest>();
+            CreateMap<UpdateCategoryRequest, Product>();
+            CreateMap<Product, UpdateCategoryRequest>();
             
         }
     }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace StoregApp.Domain.Entities
 {
-    public partial class Category
+    public partial class Product
     {
-        public Category()
+        public Product()
         {
             Products = new HashSet<Product>();
         }
