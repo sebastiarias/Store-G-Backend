@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace StoregApp.Infrastructure.Repositories
 {
-    public class CustomerRepository : ControllerBase
+    public class CustomerRepository : ICustomerRepository
     {
         private StoreGContext _context;
 

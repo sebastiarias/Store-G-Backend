@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace StoregApp.Application.Mappings
 {
-    public class CustomersMappingProfile :Profile
+    public class CustomersMappingProfile : Profile
     {
         public CustomersMappingProfile()
         {

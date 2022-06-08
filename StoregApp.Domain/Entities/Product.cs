@@ -18,7 +18,7 @@ namespace StoregApp.Domain.Entities
         public DateTime? CreateDay { get; set; }
         public int? Stock { get; set; }
 
-        public virtual Product? IdCategoryNavigation { get; set; }
+        public virtual Category? IdCategoryNavigation { get; set; }
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

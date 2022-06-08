@@ -38,7 +38,7 @@ namespace StoregApp.Api.Controllers
 
         public IActionResult Post(CreateCategoryRequest request)
         {
-            var category = _mapper.Map<Product>(request);
+            var category = _mapper.Map<Category>(request);
             _repository.InsertCategory(category);
             return Ok(category);
             
@@ -47,7 +47,7 @@ namespace StoregApp.Api.Controllers
         [HttpPut]
         public IActionResult Put(UpdateCategoryRequest request)
         {
-            var category = _mapper.Map<Product>(request);
+            var category = _mapper.Map<Category>(request);
             _repository.UpdateCategory(category);
             return Ok(category);
         }

@@ -1,7 +1,9 @@
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using StoregApp.Application;
+using StoregApp.Domain.Interfaces;
 using StoregApp.Infrastructure.Persistence;
+using StoregApp.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddFluentValidation();
 builder.Services.AddAplicationServices();
+builder.Services.AddTransient<ICategoryRepository, CategoryRepository>();
+builder.Services.AddTransient<ICustomerRepository, CustomerRepository>();
+builder.Services.AddTransient<IOrderDetailRepository, OrderDetailRepository>();
+builder.Services.AddTransient<IOrderRepository, OrderRepository>();
+builder.Services.AddTransient<IProductRepository, ProductRepository>();
 builder.Services.AddDbContext<StoreGContext>(options => options.UseSqlServer("name=ConnectionStrings:StoreG"));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

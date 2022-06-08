@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using StoregApp.Domain.Entities;
 
-
 namespace StoregApp.Infrastructure.Persistence
 {
     public partial class StoreGContext : DbContext
@@ -18,15 +17,24 @@ namespace StoregApp.Infrastructure.Persistence
         {
         }
 
-        public virtual DbSet<Product> Categories { get; set; } = null!;
+        public virtual DbSet<Category> Categories { get; set; } = null!;
         public virtual DbSet<Customer> Customers { get; set; } = null!;
         public virtual DbSet<Order> Orders { get; set; } = null!;
         public virtual DbSet<OrderDetail> OrderDetails { get; set; } = null!;
         public virtual DbSet<Product> Products { get; set; } = null!;
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                optionsBuilder.UseSqlServer("Server=ARIAS-NITRO-5;Database=StoreG;Integrated Security=true");
+            }
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Product>(entity =>
+            modelBuilder.Entity<Category>(entity =>
             {
                 entity.HasKey(e => e.IdCategory);
 
@@ -125,12 +133,12 @@ namespace StoregApp.Infrastructure.Persistence
                     .HasColumnType("decimal(18, 0)")
                     .HasColumnName("price");
 
-                entity.HasOne(d => d.IdOrderNavigation)
+                entity.HasOne(d => d.Order)
                     .WithMany(p => p.OrderDetails)
                     .HasForeignKey(d => d.IdOrder)
                     .HasConstraintName("FK_OrderDetails_Orders");
 
-                entity.HasOne(d => d.IdProductNavigation)
+                entity.HasOne(d => d.Product)
                     .WithMany(p => p.OrderDetails)
                     .HasForeignKey(d => d.IdProduct)
                     .HasConstraintName("FK_OrderDetails_Products");
@@ -166,12 +174,6 @@ namespace StoregApp.Infrastructure.Persistence
                     .HasForeignKey(d => d.IdCategory)
                     .HasConstraintName("FK_Products_Categories");
             });
-
-
-
-
-
-
 
             OnModelCreatingPartial(modelBuilder);
         }

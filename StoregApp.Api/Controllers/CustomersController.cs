@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StoregApp.Infrastructure.Persistence;
-using StoregApp.Domain.Entities;
-using StoregApp.Domain.Interfaces;
 using AutoMapper;
 using StoregApp.Application.Requests;
+using StoregApp.Domain.Interfaces;
+using StoregApp.Domain.Entities;
 
 namespace StoregApp.Api.Controllers
 {

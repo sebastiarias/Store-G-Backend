@@ -18,23 +18,23 @@ namespace StoregApp.Infrastructure.Repositories
             _context = context;
         }
 
-        public IEnumerable<Product> GetCategories()
+        public IEnumerable<Category> GetCategories()
         {
             return _context.Categories;
         }
 
-        public Product GetCategoryById(int idCategory)
+        public Category GetCategoryById(int idCategory)
         {
             return _context.Categories.FirstOrDefault(x => x.IdCategory == idCategory);
         }
 
-        public void InsertCategory(Product category)
+        public void InsertCategory(Category category)
         {
             _context.Categories.Add(category);
             _context.SaveChanges();
         }
 
-        public void UpdateCategory(Product category)
+        public void UpdateCategory(Category category)
         {
             var categoriaExistente = _context.Categories.FirstOrDefault(x => x.IdCategory == category.IdCategory);
             categoriaExistente.NameCategory = categoriaExistente.NameCategory;
