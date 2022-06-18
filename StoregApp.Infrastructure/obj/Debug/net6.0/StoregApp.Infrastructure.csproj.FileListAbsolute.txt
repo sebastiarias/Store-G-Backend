@@ -36,3 +36,41 @@ D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion We
 D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.pdb
 D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.genruntimeconfig.cache
 D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\ref\StoregApp.Infrastructure.dll
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Infrastructure.deps.json
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Infrastructure.runtimeconfig.json
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Infrastructure.dll
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Infrastructure.pdb
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Application.dll
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Domain.dll
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Application.pdb
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Domain.pdb
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.csproj.AssemblyReference.cache
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.AssemblyInfoInputs.cache
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.AssemblyInfo.cs
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.csproj.CopyComplete
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.dll
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\refint\StoregApp.Infrastructure.dll
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.pdb
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.genruntimeconfig.cache
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\ref\StoregApp.Infrastructure.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Infrastructure.deps.json
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Infrastructure.runtimeconfig.json
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Infrastructure.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Infrastructure.pdb
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Application.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Domain.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Application.pdb
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Domain.pdb
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.csproj.AssemblyReference.cache
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.AssemblyInfoInputs.cache
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.AssemblyInfo.cs
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.csproj.CopyComplete
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\refint\StoregApp.Infrastructure.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.pdb
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.genruntimeconfig.cache
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\ref\StoregApp.Infrastructure.dll

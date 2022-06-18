@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2s4pU//9vAH5OiT1Lm81eEmgSaVWRBt9OqbF0GMNPNjr+MJ0Q/ZnRjCGyxXCjgsiVYnbHXbn94No7xtVTcSUtA==",
+  "dgSpecHash": "xTN1digpVqBjoKtbCeP6m+GScK56K19Mwxa6yJOBVnM5YKFz7mVSjmVBBx+3msIMqPzte0P6KG2YzYzlUJaPIw==",
   "success": true,
-  "projectFilePath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Api\\StoregApp.Api.csproj",
+  "projectFilePath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Api\\StoregApp.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arias\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Arias\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

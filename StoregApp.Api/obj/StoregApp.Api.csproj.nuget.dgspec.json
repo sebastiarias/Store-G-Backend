@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Api\\StoregApp.Api.csproj": {}
+    "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Api\\StoregApp.Api.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Api\\StoregApp.Api.csproj": {
+    "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Api\\StoregApp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Api\\StoregApp.Api.csproj",
+        "projectUniqueName": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Api\\StoregApp.Api.csproj",
         "projectName": "StoregApp.Api",
-        "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Api\\StoregApp.Api.csproj",
+        "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Api\\StoregApp.Api.csproj",
         "packagesPath": "C:\\Users\\Arias\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Api\\obj\\",
+        "outputPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj": {
-                "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj"
+              "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj": {
+                "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj"
               },
-              "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj": {
-                "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj"
+              "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj": {
+                "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj"
               },
-              "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Infrastructure\\StoregApp.Infrastructure.csproj": {
-                "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Infrastructure\\StoregApp.Infrastructure.csproj"
+              "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Infrastructure\\StoregApp.Infrastructure.csproj": {
+                "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Infrastructure\\StoregApp.Infrastructure.csproj"
               }
             }
           }
@@ -83,18 +83,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj": {
+    "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj",
+        "projectUniqueName": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj",
         "projectName": "StoregApp.Application",
-        "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj",
+        "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj",
         "packagesPath": "C:\\Users\\Arias\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Application\\obj\\",
+        "outputPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -111,8 +111,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj": {
-                "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj"
+              "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj": {
+                "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj"
               }
             }
           }
@@ -151,18 +151,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj": {
+    "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj",
+        "projectUniqueName": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj",
         "projectName": "StoregApp.Domain",
-        "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj",
+        "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj",
         "packagesPath": "C:\\Users\\Arias\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Domain\\obj\\",
+        "outputPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -205,18 +205,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Infrastructure\\StoregApp.Infrastructure.csproj": {
+    "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Infrastructure\\StoregApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Infrastructure\\StoregApp.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Infrastructure\\StoregApp.Infrastructure.csproj",
         "projectName": "StoregApp.Infrastructure",
-        "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Infrastructure\\StoregApp.Infrastructure.csproj",
+        "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Infrastructure\\StoregApp.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Arias\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Infrastructure\\obj\\",
+        "outputPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -233,11 +233,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj": {
-                "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj"
+              "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj": {
+                "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj"
               },
-              "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj": {
-                "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj"
+              "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj": {
+                "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj"
               }
             }
           }
@@ -296,7 +296,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

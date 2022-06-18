@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using StoregApp.Application.Requests;
+using StoregApp.Application.Responses;
 using StoregApp.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,9 @@ namespace StoregApp.Application.Mappings
 
             CreateMap<UpdateCategoryRequest, Category>();
             CreateMap<Category, UpdateCategoryRequest>();
-            
+
+            CreateMap<Category, CategoryResponse>();
+
         }
     }
 }

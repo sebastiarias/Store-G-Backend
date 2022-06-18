@@ -28,3 +28,33 @@ D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion We
 D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Application\obj\Debug\net6.0\refint\StoregApp.Application.dll
 D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.pdb
 D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp\StoregApp.Application\obj\Debug\net6.0\ref\StoregApp.Application.dll
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\bin\Debug\net6.0\StoregApp.Application.deps.json
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\bin\Debug\net6.0\StoregApp.Application.dll
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\bin\Debug\net6.0\StoregApp.Application.pdb
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\bin\Debug\net6.0\StoregApp.Domain.dll
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\bin\Debug\net6.0\StoregApp.Domain.pdb
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.csproj.AssemblyReference.cache
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.AssemblyInfoInputs.cache
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.AssemblyInfo.cs
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.csproj.CoreCompileInputs.cache
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.csproj.CopyComplete
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.dll
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\refint\StoregApp.Application.dll
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.pdb
+E:\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\ref\StoregApp.Application.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\bin\Debug\net6.0\StoregApp.Application.deps.json
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\bin\Debug\net6.0\StoregApp.Application.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\bin\Debug\net6.0\StoregApp.Application.pdb
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\bin\Debug\net6.0\StoregApp.Domain.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\bin\Debug\net6.0\StoregApp.Domain.pdb
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.csproj.AssemblyReference.cache
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.AssemblyInfoInputs.cache
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.AssemblyInfo.cs
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.csproj.CoreCompileInputs.cache
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.csproj.CopyComplete
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\refint\StoregApp.Application.dll
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.pdb
+D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\ref\StoregApp.Application.dll

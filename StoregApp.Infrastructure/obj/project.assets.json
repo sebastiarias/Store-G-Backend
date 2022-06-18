@@ -2612,7 +2612,6 @@
       "path": "microsoft.netcore.targets/1.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -2730,7 +2729,6 @@
       "path": "runtime.native.system/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -4437,7 +4435,6 @@
       "path": "system.runtime.interopservices.runtimeinformation/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5419,11 +5416,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Infrastructure\\StoregApp.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Infrastructure\\StoregApp.Infrastructure.csproj",
       "projectName": "StoregApp.Infrastructure",
-      "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Infrastructure\\StoregApp.Infrastructure.csproj",
+      "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Infrastructure\\StoregApp.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Arias\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Infrastructure\\obj\\",
+      "outputPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Arias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5440,11 +5437,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj": {
-              "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj"
+            "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj": {
+              "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Application\\StoregApp.Application.csproj"
             },
-            "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj": {
-              "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj"
+            "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj": {
+              "projectPath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj"
             }
           }
         }
@@ -5503,7 +5500,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
