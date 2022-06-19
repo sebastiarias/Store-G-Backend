@@ -18,7 +18,7 @@ namespace StoregApp.Infrastructure.Repositories
             _context = context;
         }
 
-        public IEnumerable<OrderDetail> GetOrderDetail()
+        public IEnumerable<OrderDetail> GetOrderDetails()
         {
             return _context.OrderDetails;
         }

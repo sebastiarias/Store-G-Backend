@@ -18,5 +18,6 @@ namespace StoregApp.Domain.Interfaces
         void UpdateOrder(Order order);
 
         void DeleteOrder(int idOrder);
+        
     }
 }

@@ -5,62 +5,82 @@ using AutoMapper;
 using StoregApp.Application.Requests;
 using StoregApp.Domain.Interfaces;
 using StoregApp.Domain.Entities;
+using StoregApp.Application.Interfaces;
+using StoregApp.Application.Responses;
+using System.Net;
 
 namespace StoregApp.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Produces("aplication/json")]
     public class CustomersController : ControllerBase
     {
-        private readonly ICustomerRepository _repository;
-        private readonly IMapper _mapper;
+        private readonly ICustomerService _services;
 
-        
-        public CustomersController(ICustomerRepository repository, IMapper mapper )
+
+        public CustomersController(ICustomerService service)
         {
-            _repository = repository;
-            _mapper = mapper;
+            _services = service;
+
         }
-
+        /// <summary>
+        /// Retorna un listado con todas las categorias
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
-
+        [ProducesResponseType((int)HttpStatusCode.OK, Type = typeof(IEnumerable<CustomerResponse>))]
+        [ProducesResponseType((int)HttpStatusCode.Unauthorized)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
         public IActionResult Get()
         {
-            return Ok(_repository.GetCustomers());
+            return Ok(_services.GetCustomers());
         }
-
-        [HttpGet("{id}") ]
-
+        /// <summary>
+        /// Permite consultar la información de su categoria por id
+        /// </summary>
+        /// <param name="request">Identificador de la categoria a buscar</param>
+        /// <returns></returns>
+        [HttpGet("{id}")]
+        [ProducesResponseType((int)HttpStatusCode.OK, Type = typeof(CustomerResponse))]
+        [ProducesResponseType((int)HttpStatusCode.Unauthorized)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
         public IActionResult Get([FromRoute] GetCustomerByIdRequest request)
         {
-            return Ok(_repository.GetCustomerById(request.IdCustomer));
+            return Ok(_services.GetCustomerById(idCustomer: request.IdCustomer));
         }
 
-        [HttpPost] 
-        
-        public IActionResult Post(CreateCategoryRequest request)
+
+        [HttpPost]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.Unauthorized)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+
+        public IActionResult Post(CreateCustomerRequest request)
         {
-            var customer = _mapper.Map<Customer>(request);
-            _repository.InsertCustomer(customer);
+            _services.InsertCustomer(request);
             return Ok();
+
         }
 
         [HttpPut]
-
-        public IActionResult Put(UpdateCategoryRequest request)
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.Unauthorized)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        public IActionResult Put(UpdateCustomerRequest request)
         {
-            var customer = _mapper.Map<Customer>(request);
-            _repository.UpdateCustomer(customer);
+            _services.UpdateCustomer(request);
             return Ok();
         }
 
         [HttpDelete("{id}")]
-
-        public IActionResult Delete([FromRoute] GetCustomerByIdRequest request)
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.Unauthorized)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        public IActionResult Delete([FromRoute] DeleteCustomerRequest request)
         {
-            _repository.DeleteCustomer(request.IdCustomer);         
+            _services.DeleteCustomer(request.Id);
             return Ok();
-
         }
     }
 }

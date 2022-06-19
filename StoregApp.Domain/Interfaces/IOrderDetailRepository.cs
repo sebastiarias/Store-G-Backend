@@ -11,7 +11,7 @@ namespace StoregApp.Domain.Interfaces
     {
         OrderDetail GetOrderDetailById(int IdDetail);
 
-        IEnumerable<OrderDetail> GetOrderDetail();
+        IEnumerable<OrderDetail> GetOrderDetails();
 
         void InsertOrderDetail(OrderDetail orderDetail);
 

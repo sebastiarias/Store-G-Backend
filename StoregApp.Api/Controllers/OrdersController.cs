@@ -1,60 +1,85 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using StoregApp.Application.Interfaces;
 using StoregApp.Application.Requests;
+using StoregApp.Application.Responses;
 using StoregApp.Domain.Entities;
 using StoregApp.Domain.Interfaces;
 using StoregApp.Infrastructure.Persistence;
+using System.Net;
 
 namespace StoregApp.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Produces("aplication/json")]
 
     public class OrdersController : ControllerBase
     {
-        private readonly IOrderRepository _repository;
-        private readonly IMapper _mapper;
+        private readonly IOrderService _services;
 
-        public OrdersController(IOrderRepository repository, IMapper mapper)
+        public OrdersController(IOrderService service)
         {
-            _repository = repository;
-            _mapper = mapper;
+            _services = service;
+
         }
-
+        /// <summary>
+        /// Retorna un listado con todas las categorias
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
-
+        [ProducesResponseType((int)HttpStatusCode.OK, Type = typeof(IEnumerable<OrderResponse>))]
+        [ProducesResponseType((int)HttpStatusCode.Unauthorized)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
         public IActionResult Get()
         {
-            return Ok(_repository.GetOrders());
+            return Ok(_services.GetOrders());
         }
-
+        /// <summary>
+        /// Permite consultar la información de su categoria por id
+        /// </summary>
+        /// <param name="request">Identificador de la categoria a buscar</param>
+        /// <returns></returns>
         [HttpGet("{id}")]
+        [ProducesResponseType((int)HttpStatusCode.OK, Type = typeof(OrderResponse))]
+        [ProducesResponseType((int)HttpStatusCode.Unauthorized)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
         public IActionResult Get([FromRoute] GetOrderByIdRequest request)
         {
-            return Ok(_repository.GetOrderById(request.IdOrder));
+            return Ok(_services.GetOrderById(idOrder: request.IdOrder));
         }
 
+
         [HttpPost]
-        public IActionResult Post(CreateOrderDetailRequest request)
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.Unauthorized)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+
+        public IActionResult Post(CreateOrderRequest request)
         {
-            var order = _mapper.Map<Order>(request);
-            _repository.InsertOrder(order);
+            _services.InsertOrder(request);
             return Ok();
+
         }
 
         [HttpPut]
-        public IActionResult Put(CreateOrderDetailRequest request)
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.Unauthorized)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        public IActionResult Put(UpdateOrderRequest request)
         {
-            var order = _mapper.Map<Order>(request);
-            _repository.UpdateOrder(order);
+            _services.UpdateOrder(request);
             return Ok();
         }
 
         [HttpDelete("{id}")]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.Unauthorized)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
         public IActionResult Delete([FromRoute] DeleteOrderRequest request)
         {
-            _repository.DeleteOrder(request.IdOrder);
+            _services.DeleteOrder(request.IdOrder);
             return Ok();
         }
     }

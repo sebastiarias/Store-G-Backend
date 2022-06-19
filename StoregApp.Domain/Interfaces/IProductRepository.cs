@@ -18,5 +18,6 @@ namespace StoregApp.Domain.Interfaces
         void UpdateProduct(Product product);
 
         void DeleteProduct(int IdProduct);
+        
     }
 }

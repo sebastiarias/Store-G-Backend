@@ -17,6 +17,7 @@ namespace StoregApp.Domain.Interfaces
 
         void UpdateCustomer(Customer customer);
 
-        void DeleteCustomer(int idCustomer);
+        void DeleteCustomer(int idCustomer);        
+   
     }
 }

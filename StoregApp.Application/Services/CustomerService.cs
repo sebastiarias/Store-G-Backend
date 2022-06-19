@@ -1,5 +1,8 @@
 ﻿using AutoMapper;
 using StoregApp.Application.Interfaces;
+using StoregApp.Application.Requests;
+using StoregApp.Application.Responses;
+using StoregApp.Domain.Entities;
 using StoregApp.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -25,32 +28,32 @@ namespace StoregApp.Application.Services
             _repository.DeleteCustomer(idCustomer);
         }
 
-        public CategoryResponse GetCategoryById(int idCategory)
+        public CustomerResponse GetCustomerById(int idCustomer)
         {
-            var category = _repository.GetCategoryById(idCategory);
-            var categoryResponse = _mapper.Map<CategoryResponse>(category);
-            return categoryResponse;
+            var customer = _repository.GetCustomerById(idCustomer);
+            var customerResponse = _mapper.Map<CustomerResponse>(customer);
+            return customerResponse;
         }
 
 
-        public IEnumerable<CategoryResponse> GetCategories()
+        public IEnumerable<CustomerResponse> GetCustomers()
         {
-            var category = _repository.GetCategories();
-            var categoryResponse = _mapper.Map<IEnumerable<CategoryResponse>>(category);
-            return categoryResponse;
+            var customer = _repository.GetCustomers();
+            var customerResponse = _mapper.Map<IEnumerable<CustomerResponse>>(customer);
+            return customerResponse;
         }
 
 
-        public void InsertCategory(CreateCategoryRequest request)
+        public void InsertCustomer(CreateCustomerRequest request)
         {
-            var category = _mapper.Map<Category>(request);
-            _repository.InsertCategory(category);
+            var customer = _mapper.Map<Customer>(request);
+            _repository.InsertCustomer(customer);
         }
 
-        public void UpdateCategory(UpdateCategoryRequest request)
+        public void UpdateCustomer(UpdateCustomerRequest request)
         {
-            var category = _mapper.Map<Category>(request);
-            _repository.UpdateCategory(category);
+            var customer = _mapper.Map<Customer>(request);
+            _repository.UpdateCustomer(customer);
         }
 
     }

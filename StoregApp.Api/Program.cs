@@ -13,9 +13,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+
 builder.Services.AddControllers();
 builder.Services.AddFluentValidation();
+//Se registran las dependencias del proyecto Application
 builder.Services.AddAplicationServices();
+//Registrar las dependencias de los repositorios
 builder.Services.AddTransient<ICategoryRepository, CategoryRepository>();
 builder.Services.AddTransient<ICustomerRepository, CustomerRepository>();
 builder.Services.AddTransient<IOrderDetailRepository, OrderDetailRepository>();
@@ -23,6 +26,10 @@ builder.Services.AddTransient<IOrderRepository, OrderRepository>();
 builder.Services.AddTransient<IProductRepository, ProductRepository>();
 //Se agrega conexion interfaces de services
 builder.Services.AddTransient<ICategoryService, CategoryService>();
+builder.Services.AddTransient<ICustomerService, CustomerService>();
+builder.Services.AddTransient<IOrderDetailService, OrderDetailService>();
+builder.Services.AddTransient<IOrderService, OrderService>();
+builder.Services.AddTransient<IProductService, ProductService>();
 
 
 builder.Services.AddDbContext<StoreGContext>(options => options.UseSqlServer("name=ConnectionStrings:StoreG"));
@@ -48,7 +55,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
-        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Storeg Api v1");
+        //Especificar la url en donde se encuentra el swagger de la API
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Storeg API v1");
+
+        //Especificar que swagger sea la pagina por defecto
         options.RoutePrefix = String.Empty;
     });
 }
