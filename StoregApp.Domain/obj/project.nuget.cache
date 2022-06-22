@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2H14Bh4i9L6bea4t4TgMkvz6yRprOHdEb+jl4kxqGlsSLCJC2DvyHJK/u51DifNLlGRlz/zQOVDsr6O4gKaxiw==",
+  "dgSpecHash": "l3jb7TMwi2BB909xV+x9Y0EGsI8td7lGvC6pQzYBWfpNs271HWef1StO4nD8zSMshTDCslBDr8WHWN7q1YPfIQ==",
   "success": true,
-  "projectFilePath": "D:\\Documentos\\Desarrollo de Sofware Cesde\\Desarrollo de Software\\Programacion Web 1\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj",
+  "projectFilePath": "D:\\Proyectos\\StoregApp\\StoregApp.Domain\\StoregApp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

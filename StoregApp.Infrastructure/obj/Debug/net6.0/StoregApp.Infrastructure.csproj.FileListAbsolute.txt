@@ -74,3 +74,22 @@ D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion We
 D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.pdb
 D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.genruntimeconfig.cache
 D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Infrastructure\obj\Debug\net6.0\ref\StoregApp.Infrastructure.dll
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Infrastructure.deps.json
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Infrastructure.runtimeconfig.json
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Infrastructure.dll
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Infrastructure.pdb
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Application.dll
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Domain.dll
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Application.pdb
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\bin\Debug\net6.0\StoregApp.Domain.pdb
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.csproj.CopyComplete
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.dll
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\obj\Debug\net6.0\refint\StoregApp.Infrastructure.dll
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.pdb
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\obj\Debug\net6.0\StoregApp.Infrastructure.genruntimeconfig.cache
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Infrastructure\obj\Debug\net6.0\ref\StoregApp.Infrastructure.dll

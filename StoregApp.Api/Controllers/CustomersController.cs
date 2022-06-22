@@ -8,12 +8,14 @@ using StoregApp.Domain.Entities;
 using StoregApp.Application.Interfaces;
 using StoregApp.Application.Responses;
 using System.Net;
+using Microsoft.AspNetCore.Authorization;
 
 namespace StoregApp.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Produces("aplication/json")]
+    [Produces("application/json")]
+    [Authorize]
     public class CustomersController : ControllerBase
     {
         private readonly ICustomerService _services;

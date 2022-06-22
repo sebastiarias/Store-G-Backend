@@ -8,12 +8,14 @@ using StoregApp.Application.Requests;
 using StoregApp.Application.Interfaces;
 using System.Net;
 using StoregApp.Application.Responses;
+using Microsoft.AspNetCore.Authorization;
 
 namespace StoregApp.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Produces("aplication/json")]
+    [Produces("application/json")]
+    [Authorize]
     public class CategoriesController : ControllerBase
     {
         private readonly ICategoryService _services;

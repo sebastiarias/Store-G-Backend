@@ -1,13 +1,15 @@
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using StoregApp.Application;
 using StoregApp.Application.Interfaces;
-using StoregApp.Application.Responses;
 using StoregApp.Application.Services;
 using StoregApp.Domain.Interfaces;
 using StoregApp.Infrastructure.Persistence;
 using StoregApp.Infrastructure.Repositories;
 using System.Reflection;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -47,6 +49,24 @@ builder.Services.AddSwaggerGen(options =>
     options.IncludeXmlComments(xmlPath);
 });
 
+builder.Services.AddAuthentication(options =>
+{
+
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options => {
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = "https://localhost:7234",
+        ValidAudience = "https://localhost:7234",
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("asdfawdfsdfqwerwefcwaefewtwassdas"))
+    };
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -65,7 +85,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
+
+
 
 app.MapControllers();
 

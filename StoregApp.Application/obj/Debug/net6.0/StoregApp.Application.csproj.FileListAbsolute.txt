@@ -58,3 +58,18 @@ D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion We
 D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\refint\StoregApp.Application.dll
 D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.pdb
 D:\Documentos\Desarrollo de Sofware Cesde\Desarrollo de Software\Programacion Web 1\StoregApp\StoregApp.Application\obj\Debug\net6.0\ref\StoregApp.Application.dll
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Application\bin\Debug\net6.0\StoregApp.Application.deps.json
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Application\bin\Debug\net6.0\StoregApp.Application.dll
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Application\bin\Debug\net6.0\StoregApp.Application.pdb
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Application\bin\Debug\net6.0\StoregApp.Domain.dll
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Application\bin\Debug\net6.0\StoregApp.Domain.pdb
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.csproj.AssemblyReference.cache
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.AssemblyInfoInputs.cache
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.AssemblyInfo.cs
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.csproj.CopyComplete
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.dll
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Application\obj\Debug\net6.0\refint\StoregApp.Application.dll
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Application\obj\Debug\net6.0\StoregApp.Application.pdb
+C:\Users\Angie\Downloads\StoregApp-main\StoregApp.Application\obj\Debug\net6.0\ref\StoregApp.Application.dll

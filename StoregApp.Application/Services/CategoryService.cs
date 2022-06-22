@@ -41,7 +41,7 @@ namespace StoregApp.Application.Services
             var category = _repository.GetCategories();
             var categoryResponse = _mapper.Map<IEnumerable<CategoryResponse>>(category);
             return categoryResponse;
-        }
+        } 
 
         
         public void InsertCategory(CreateCategoryRequest request)

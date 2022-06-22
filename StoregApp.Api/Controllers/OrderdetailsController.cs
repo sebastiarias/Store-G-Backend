@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StoregApp.Application.Interfaces;
@@ -14,7 +15,8 @@ namespace StoregApp.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Produces("aplication/json")]
+    [Produces("application/json")]
+    [Authorize]
     public class OrderdetailsController : ControllerBase
     {
         private readonly IOrderDetailService _services;
